@@ -9,6 +9,21 @@
     --secondary-font: 'Raleway', sans-serif;
 }
 
+
+img {
+    height: auto;
+    max-width: 100%;  
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container {
+    width: 1200px;
+}
+
 /*Body section styling- first page */
 .body {
     font-family: var(--primary-font);
@@ -18,7 +33,15 @@
 /* Header section */
 .header {
     display: inline-flex;
+    height: 80px;
+    margin-left: 100px;
 }
+
+.WebStudio {
+    padding-top: 25px;
+    padding-bottom: 24px;
+}
+
  .studio {
     color: var(--blue);
  }
@@ -35,11 +58,16 @@
 .list li {
     font-size: 14px;
     list-style: none;
-    display: inline-flex;
-    padding-top: 15px;
     text-shadow: 2px 2px 2px var(--lightgray);
-    font-weight: 500;
-    margin-right: 40px;
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+.second__list{
+    margin-left: 200px;
+    margin-right: 5px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 a {
@@ -51,13 +79,13 @@ a:hover{
     color: var(--blue);
 }
 
-.list__tel{
-    color: var(--gray);
+.list__address {
+    margin-left: 100px;
+    margin-right: 10px;   
 }
 
-.list__address {
-    padding-left: 400px;
-    margin-right: 20px;;
+.list__tel{
+    color: var(--gray);
 }
 
 /* Nucleu Pagina */
@@ -69,8 +97,10 @@ a:hover{
     letter-spacing: 2px;
     color: var(--white);
     text-shadow: 2px 2px 2px var(--black);
-    padding-top: 200px;
-    padding-bottom: 200px;
+    height: 600px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin:0;
 }
 
 .button {
@@ -80,8 +110,8 @@ a:hover{
     line-height: 2;
     border-radius: 10px;
     border-color: var(--darkgray);
-    padding-bottom: 20px;
     letter-spacing: 2px;
+    padding-bottom: 20px;    
     padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
@@ -94,33 +124,33 @@ a:hover{
 
   /* Hero-section */
 .hero__section {
-    margin-top: 70px;
-    margin-bottom: 70px;
-    margin-left: 80px;
-    margin-right: 80px;
+    height: 101px;
+    width: 1170px;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
   
  .hero__section__title {
     font-size: 14px;
  } 
 
- .hero__section__text {
+ .hero__section__ext {
     font-size: 14px;
     color: var(--gray); 
 }
 
 
 /* What we do section */
+.what__we__do {
+    width: 1170;
+    height: 386px;
+}
+
 .what__we__do__title {
     font-size: 36px;
     text-align: center;
-    text-shadow: 2px 2px 2px var(--gray)
-}
-
-.what__we__do__images {
-    margin-top: 40px;
-    margin-left: 120px;
-    margin-bottom: 70px;
+    text-shadow: 2px 2px 2px var(--gray)      
 }
 
 /* Our team section */
@@ -129,15 +159,17 @@ a:hover{
     background-color: var(--lightgray);
     padding-top: 10px;
     padding-bottom: 80px;
+    width: 1200px;
+    height: 648px;
 }
 
 .our__team__title {
     font-size: 36px;
     text-align: center;
     text-shadow: 2px 2px 2px var(--lightgray);
-    margin-top: 80px;
-}
+    margin-top: 90px;
 
+}
 
     /* Container cu informatii despre membrii */
     
@@ -147,6 +179,7 @@ a:hover{
     box-shadow: 1px 2px 1px var(--lightgray);  
     margin-left: 100px;
     }
+    
     
     .containers {
     border-radius: 5px;
@@ -167,13 +200,13 @@ a:hover{
     color: var(--gray);
     }
     
-
     /* Footer section */
 .footer {
     background-color: var(--darkgray);
     padding-top: 50px;
     padding-left: 100px;
     padding-bottom: 50px;
+    height: 251px;
 }
 
 #footer__logo {
@@ -188,7 +221,7 @@ a:hover{
     line-height: normal;
 }
 
-.footer__address a {
+.footer__address a:hover {
     display: inline-block;
     padding-bottom: 10px;
     color: var(--gray);
@@ -240,8 +273,9 @@ a:hover{
 }
 .container__portofolio {
     border-radius: 5px;
-    background-color: var(--white);
-    box-shadow: 1px 2px 1px var(--lightgray);  
+    background-color: var(--red);
+    box-shadow: 1px 2px 1px var(--lightgray);
+    border-bottom: #212121 solid;
     }
 
 .card__title {

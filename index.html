@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>goit-markup-hw-01</title>
     <meta charset="UTF-8">
+    <title>goit-markup-hw-003</title>
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body> 
+<body class="body">
+    <div class="container">
     <!--Header section-->
-    <header class="header">
+    <div class="section">
+    <div class="header">
         <nav class="navigation">
             <div id="WebStudio">
                 <a href="WebStudio">
@@ -55,9 +58,11 @@
                 </li>
             </ul>
         </div>
+    </div>
     </header>
     <!--Nucleu Pagina-->
     <main id="Studio">
+        <div class="section">
         <section class="title">
             <h1>
                 <b>
@@ -68,8 +73,9 @@
                 <b>Request our service</b>
             </button>
         </section>
+        </div>
         <!--Hero section-->
-        <section>
+        <section class="section">
             <div style="display: flex; gap: 30px;" class="hero__section">
                 <!--Container 1-->
                 <div>
@@ -110,23 +116,27 @@
             </div>
         </section>
         <!--What we do--> 
-        <section>
+        <div class="section">
+        <section class="what__we__do">
             <h2 class="what__we__do__title">
                 <b>What we do</b>
             </h2>
             <div style="display: flex; gap: 30px" class="what__we__do__images">
-                <img src="./images/img1.jpg" alt="hard work" width="294" />
-                <img src="./images/img2.jpg" alt="mobile responsive" width="294" />
-                <img src="./images/img3.jpg" alt="color adjustment" width="294" />
+                <img src="./images/img1.jpg" alt="hard work" />
+                <img src="./images/img2.jpg" alt="mobile responsive"/>
+                <img src="./images/img3.jpg" alt="color adjustment"/>
             </div>
         </section>
+        </div>
         <!--Our team-->
-        <section class="our__team">
+        <div class="section">
+        <section class="our__team"> 
             <h2 class="our__team__title">
-                <b>Our Team</b>
+            <b>Our Team</b>
             </h2>
             <!--Container cu informatii despre membri-->
             <div style="display: flex; gap: 30px">
+
                 <!--Container 1-->
                 <div class="container__1">
                     <img src="./images/img4.jpg" alt="Christopher Walker" width="220">
@@ -153,8 +163,10 @@
                 </div>
             </div>
         </section>
+        </div>
     </main>
       <!--Footer section-->
+      <section class="section">
       <footer class="footer">
         <div>
             <a id="footer__logo" href="#">
@@ -177,5 +189,7 @@
             </address>
         </div>
       </footer>
+      </section>
+    </div>
 </body>
 </html>
